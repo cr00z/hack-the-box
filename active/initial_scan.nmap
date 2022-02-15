@@ -1,0 +1,28 @@
+# Nmap 7.80 scan initiated Sat Oct 24 06:32:58 2020 as: nmap -n -vvv -sS -Pn --min-rate=5000 -oA initial_scan 10.129.26.175
+Nmap scan report for 10.129.26.175
+Host is up, received user-set (0.20s latency).
+Scanned at 2020-10-24 06:32:58 EDT for 1s
+Not shown: 982 closed ports
+Reason: 982 resets
+PORT      STATE SERVICE          REASON
+53/tcp    open  domain           syn-ack ttl 127
+88/tcp    open  kerberos-sec     syn-ack ttl 127
+135/tcp   open  msrpc            syn-ack ttl 127
+139/tcp   open  netbios-ssn      syn-ack ttl 127
+389/tcp   open  ldap             syn-ack ttl 127
+445/tcp   open  microsoft-ds     syn-ack ttl 127
+464/tcp   open  kpasswd5         syn-ack ttl 127
+593/tcp   open  http-rpc-epmap   syn-ack ttl 127
+636/tcp   open  ldapssl          syn-ack ttl 127
+3268/tcp  open  globalcatLDAP    syn-ack ttl 127
+3269/tcp  open  globalcatLDAPssl syn-ack ttl 127
+49152/tcp open  unknown          syn-ack ttl 127
+49153/tcp open  unknown          syn-ack ttl 127
+49154/tcp open  unknown          syn-ack ttl 127
+49155/tcp open  unknown          syn-ack ttl 127
+49157/tcp open  unknown          syn-ack ttl 127
+49158/tcp open  unknown          syn-ack ttl 127
+49165/tcp open  unknown          syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Oct 24 06:32:59 2020 -- 1 IP address (1 host up) scanned in 0.62 seconds

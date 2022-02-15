@@ -1,0 +1,8 @@
+# Nmap 7.80 scan initiated Sun Jan  3 05:13:28 2021 as: nmap -sT -p- --min-rate 5000 -oA nmap/alltcp 10.129.74.38
+Nmap scan report for forum.bart.htb (10.129.74.38)
+Host is up (0.11s latency).
+Not shown: 65534 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+# Nmap done at Sun Jan  3 05:13:55 2021 -- 1 IP address (1 host up) scanned in 26.88 seconds

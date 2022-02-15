@@ -1,0 +1,15 @@
+POST http://10.129.2.18:8080/include/process_login.php HTTP/1.1
+Host: 10.129.2.18:8080
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 169
+Origin: http://10.129.2.18:8080
+Connection: close
+Referer: http://10.129.2.18:8080/index.php
+Cookie: sec_session_id=3rgedor09q01uoqoagrvb0muaa
+Upgrade-Insecure-Requests: 1
+
+email=mrb3n@Projectworlds.in*&password=&p=a6cbd0cf7c897412fd98bd4e25b03a9543bd9239db882d46ba714386fd324f5edff52416db307aec0e4711f4df71357f07a5399ca892e4aec17d416a888ffc6c*

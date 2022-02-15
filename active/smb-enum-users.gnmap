@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sat Oct 24 07:03:34 2020 as: nmap -n --script=smb-enum-users -oA smb-enum-users 10.129.26.175
+Host: 10.129.26.175 ()	Status: Up
+Host: 10.129.26.175 ()	Ports: 53/open/tcp//domain///, 88/open/tcp//kerberos-sec///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 389/open/tcp//ldap///, 445/open/tcp//microsoft-ds///, 464/open/tcp//kpasswd5///, 593/open/tcp//http-rpc-epmap///, 636/open/tcp//ldapssl///, 3268/open/tcp//globalcatLDAP///, 3269/open/tcp//globalcatLDAPssl///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49157/open/tcp//unknown///, 49158/open/tcp//unknown///, 49165/open/tcp//unknown///	Ignored State: closed (982)
+# Nmap done at Sat Oct 24 07:03:43 2020 -- 1 IP address (1 host up) scanned in 8.44 seconds

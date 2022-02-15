@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sat Oct 24 06:59:27 2020 as: nmap -n -&#45;script safe -oA nse-smb-enum -p445 10.129.26.175 -->
+<nmaprun scanner="nmap" args="nmap -n -&#45;script safe -oA nse-smb-enum -p445 10.129.26.175" start="1603537167" startstr="Sat Oct 24 06:59:27 2020" version="7.80" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<prescript><script id="broadcast-dhcp-discover" output="&#xa;  Response 1 of 1: &#xa;    IP Offered: 10.0.2.16&#xa;    Subnet Mask: 255.255.255.0&#xa;    Router: 10.0.2.2&#xa;    Domain Name Server: 8.8.8.8, 8.8.4.4&#xa;    Server Identifier: 10.0.2.2"><table key="Response 1 of 1">
+<elem key="IP Offered">10.0.2.16</elem>
+<elem key="Subnet Mask">255.255.255.0</elem>
+<elem key="Router">10.0.2.2</elem>
+<table key="Domain Name Server">
+<elem>8.8.8.8</elem>
+<elem>8.8.4.4</elem>
+</table>
+<elem key="Server Identifier">10.0.2.2</elem>
+</table>
+</script><script id="broadcast-netbios-master-browser" output="&#xa;ip  server  domain&#xa;"/><script id="eap-info" output="please specify an interface with -e"/><script id="targets-asn" output="&#xa;  targets-asn.asn is a mandatory parameter&#xa;"/></prescript><host starttime="1603537209" endtime="1603537237"><status state="up" reason="timestamp-reply" reason_ttl="127"/>
+<address addr="10.129.26.175" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="microsoft-ds" method="table" conf="3"/><script id="smb-enum-services" output="ERROR: Script execution failed (use -d to debug)"/></port>
+</ports>
+<hostscript><script id="clock-skew" output="2m45s"><elem key="median">165</elem>
+<elem key="count">1</elem>
+<elem key="stddev">0</elem>
+<elem key="mean">165</elem>
+</script><script id="fcrdns" output="FAIL (No PTR record)"><table key="&lt;none&gt;">
+<elem key="status">fail</elem>
+<elem key="reason">No PTR record</elem>
+</table>
+</script><script id="ipidseq" output="Incremental!"/><script id="msrpc-enum" output="Could not negotiate a connection:SMB: Failed to receive bytes: ERROR">false</script><script id="path-mtu" output="PMTU == 1500"/><script id="smb-mbenum" output="&#xa;  ERROR: Failed to connect to browser service: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR"/><script id="smb-protocols" output="&#xa;  dialects: &#xa;    2.02&#xa;    2.10"><table key="dialects">
+<elem>2.02</elem>
+<elem>2.10</elem>
+</table>
+</script><script id="smb2-capabilities" output="&#xa;  2.02: &#xa;    Distributed File System&#xa;  2.10: &#xa;    Distributed File System&#xa;    Leasing&#xa;    Multi-credit operations"><table key="2.02">
+<elem>Distributed File System</elem>
+</table>
+<table key="2.10">
+<elem>Distributed File System</elem>
+<elem>Leasing</elem>
+<elem>Multi-credit operations</elem>
+</table>
+</script><script id="smb2-security-mode" output="&#xa;  2.02: &#xa;    Message signing enabled and required"><table key="2.02">
+<elem>Message signing enabled and required</elem>
+</table>
+</script><script id="smb2-time" output="&#xa;  date: 2020-10-24T11:03:00&#xa;  start_date: 2020-10-24T10:14:12"><elem key="date">2020-10-24T11:03:00</elem>
+<elem key="start_date">2020-10-24T10:14:12</elem>
+</script><script id="unusual-port" output="&#xa;  WARNING: this script depends on Nmap&apos;s service/version detection (-sV)&#xa;"/></hostscript><times srtt="199375" rttvar="150668" to="802047"/>
+</host>
+<postscript><script id="reverse-index" output="&#xa;  445/tcp: 10.129.26.175"><table key="445/tcp">
+<elem>10.129.26.175</elem>
+</table>
+</script></postscript><runstats><finished time="1603537237" timestr="Sat Oct 24 07:00:37 2020" elapsed="69.95" summary="Nmap done at Sat Oct 24 07:00:37 2020; 1 IP address (1 host up) scanned in 69.95 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

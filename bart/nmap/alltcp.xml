@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.80 scan initiated Sun Jan  3 05:13:28 2021 as: nmap -sT -p- -&#45;min-rate 5000 -oA nmap/alltcp 10.129.74.38 -->
+<nmaprun scanner="nmap" args="nmap -sT -p- -&#45;min-rate 5000 -oA nmap/alltcp 10.129.74.38" start="1609668808" startstr="Sun Jan  3 05:13:28 2021" version="7.80" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1609668808" endtime="1609668835"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.129.74.38" addrtype="ipv4"/>
+<hostnames>
+<hostname name="forum.bart.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="106312" rttvar="2366" to="115776"/>
+</host>
+<runstats><finished time="1609668835" timestr="Sun Jan  3 05:13:55 2021" elapsed="26.88" summary="Nmap done at Sun Jan  3 05:13:55 2021; 1 IP address (1 host up) scanned in 26.88 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Sat Oct 24 06:59:27 2020 as: nmap -n --script safe -oA nse-smb-enum -p445 10.129.26.175
+Host: 10.129.26.175 ()	Status: Up
+Host: 10.129.26.175 ()	Ports: 445/open/tcp//microsoft-ds///
+# Nmap done at Sat Oct 24 07:00:37 2020 -- 1 IP address (1 host up) scanned in 69.95 seconds

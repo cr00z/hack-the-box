@@ -1,0 +1,8 @@
+10.129.33.178 alpha.worker.htb
+10.129.33.178 cartoon.worker.htb
+10.129.33.178 lens.worker.htb
+10.129.33.178 solid-state.worker.htb
+10.129.33.178 spectral.worker.htb
+10.129.33.178 story.worker.htb
+10.129.33.178 devops.worker.htb
+10.129.33.178 dimension.worker.htb

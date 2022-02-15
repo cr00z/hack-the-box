@@ -1,0 +1,11 @@
+﻿Build started 02.11.2020 10:25:30.
+     1>Project "E:\pentest_labs\hackthebox\machines\buff\Peony\Payload\Payload.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _WINDOWS /D NDEBUG /D _USRDLL /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"x64\Release\Payload.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt Payload.cpp
+         Payload.cpp
+     1>Payload.cpp(126): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+     1>Done Building Project "E:\pentest_labs\hackthebox\machines\buff\Peony\Payload\Payload.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.51

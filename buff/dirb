@@ -1,0 +1,41 @@
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sun Nov  1 05:00:42 2020
+URL_BASE: http://10.129.2.18:8080/
+WORDLIST_FILES: /usr/share/dirb/wordlists/big.txt
+
+-----------------
+
+GENERATED WORDS: 20458                                                         
+
+---- Scanning URL: http://10.129.2.18:8080/ ----
++ http://10.129.2.18:8080/LICENSE (CODE:200|SIZE:18025)                                                                                                                                                                       
+==> DIRECTORY: http://10.129.2.18:8080/att/                                                                                                                                                                                    
++ http://10.129.2.18:8080/aux (CODE:403|SIZE:1043)                                                                                                                                                                             
+==> DIRECTORY: http://10.129.2.18:8080/boot/                                                                                                                                                                                   
++ http://10.129.2.18:8080/cgi-bin/ (CODE:403|SIZE:1057)                                                                                                                                                                        
++ http://10.129.2.18:8080/com1 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/com2 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/com3 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/com4 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/con (CODE:403|SIZE:1043)                                                                                                                                                                             
+==> DIRECTORY: http://10.129.2.18:8080/ex/                                                                                                                                                                                     
++ http://10.129.2.18:8080/examples (CODE:503|SIZE:1057)                                                                                                                                                                       
+==> DIRECTORY: http://10.129.2.18:8080/img/                                                                                                                                                                                   
+==> DIRECTORY: http://10.129.2.18:8080/include/                                                                                                                                                                                
++ http://10.129.2.18:8080/license (CODE:200|SIZE:18025)                                                                                                                                                                        
++ http://10.129.2.18:8080/licenses (CODE:403|SIZE:1202)                                                                                                                                                                        
++ http://10.129.2.18:8080/lpt1 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/lpt2 (CODE:403|SIZE:1043)                                                                                                                                                                            
++ http://10.129.2.18:8080/nul (CODE:403|SIZE:1043)                                                                                                                                                                             
++ http://10.129.2.18:8080/phpmyadmin (CODE:403|SIZE:1202)                                                                                                                                                                      
++ http://10.129.2.18:8080/prn (CODE:403|SIZE:1043)                                                                                                                                                                             
+==> DIRECTORY: http://10.129.2.18:8080/profile/                                                                                                                                                                               
++ http://10.129.2.18:8080/server-info (CODE:403|SIZE:1202)                                                                                                                                                                    
++ http://10.129.2.18:8080/server-status (CODE:403|SIZE:1202)                                                                                                                                                                  
+==> DIRECTORY: http://10.129.2.18:8080/upload/                                                                                                                                                                                
++ http://10.129.2.18:8080/webalizer (CODE:403|SIZE:1043)                                                                                                                                                                       
+==> DIRECTORY: http://10.129.2.18:8080/workouts/  
